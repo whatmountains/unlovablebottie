@@ -19,9 +19,9 @@ class CloneBot < Ebooks::Bot
 
   def configure
     # Configuration for all CloneBots
-    self.consumer_key = ""
-    self.consumer_secret = ""
-    self.blacklist = ['kylelehk', 'friedrichsays', 'Sudieofna', 'tnietzschequote', 'NerdsOnPeriod', 'FSR', 'BafflingQuotes', 'Obey_Nxme']
+    self.consumer_key = "TRXkEvgm0dMdj5r6Dd8TwwU4E"
+    self.consumer_secret = "TGsl4AcNuaHIdTvhMlbLGq1CZ6ol92knY5fYywNiNrlh3rSLnQ"
+    self.blacklist = []
     self.delay_range = 1..6
     @userinfo = {}
   end
@@ -128,9 +128,9 @@ class CloneBot < Ebooks::Bot
   end
 end
 
-CloneBot.new("abby_ebooks") do |bot|
-  bot.access_token = ""
-  bot.access_token_secret = ""
+CloneBot.new("doggie_books") do |bot|
+  bot.access_token = "1000610853614370818-Y2nXyMluFalTPnWvvEp7SbXFGwR2Jy"
+  bot.access_token_secret = "5eKHlqf3HsNIEhgKxr8BvajJvfAgyQDur2lEHAvRrywpB"
 
-  bot.original = "0xabad1dea"
+  bot.original = "dogtrauma"
 end
