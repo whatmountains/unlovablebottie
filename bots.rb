@@ -19,8 +19,8 @@ class CloneBot < Ebooks::Bot
 
   def configure
     # Configuration for all CloneBots
-    self.consumer_key = "TRXkEvgm0dMdj5r6Dd8TwwU4E"
-    self.consumer_secret = "TGsl4AcNuaHIdTvhMlbLGq1CZ6ol92knY5fYywNiNrlh3rSLnQ"
+    self.consumer_key = "gWhXxKxBt15HA3plqw3E8Yi9p"
+    self.consumer_secret = "TQGwyeFnb8UALbyht0k4KqmCgN0d4Qfc91Hm4uJrupg2VxRUvA"
     self.blacklist = []
     self.delay_range = 1..6
     @userinfo = {}
@@ -128,9 +128,9 @@ class CloneBot < Ebooks::Bot
   end
 end
 
-CloneBot.new("doggie_books") do |bot|
-  bot.access_token = "1000610853614370818-Y2nXyMluFalTPnWvvEp7SbXFGwR2Jy"
-  bot.access_token_secret = "5eKHlqf3HsNIEhgKxr8BvajJvfAgyQDur2lEHAvRrywpB"
+CloneBot.new("unlovablebottie") do |bot|
+  bot.access_token = "992497117632614401-EbvYrzL9Wi0eyFyRBboSUzhNe3KzChm"
+  bot.access_token_secret = "8i4USjBADKtKSY5QeNMV6YCJV23cHYwR8Kk2GlStISord"
 
-  bot.original = "dogtrauma"
+  bot.original = "unlovablehottie"
 end
